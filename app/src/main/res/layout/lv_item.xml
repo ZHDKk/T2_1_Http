@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="湖北日报讯 昨日清晨，嘉鱼县渡普镇斧头湖，养殖户陈高峰正在捕螃蟹，洪灾后的第一批新螃蟹将供应中秋市场。受今夏洪灾影响，嘉鱼螃蟹养殖渔场损失了部分蟹苗，当地水产部门及时在政策和技术上对养殖户给予帮助，今年螃蟹产量虽有所下降，但品质良好。"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:gravity="bottom|right"
+            android:layout_marginTop="10dp"
+            android:text="2016.9.14" />
+    </LinearLayout>
+</LinearLayout>
